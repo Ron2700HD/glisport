@@ -61,8 +61,8 @@ a {
     text-align: center;
     font-family: Formula1-Bold;
     color: aliceblue;
-    background-color: black;
     text-shadow: 7px 7px 5px black, 0 0 30px black, 0 0 50px black;
+    background: none;
   }
 .footer{
       width: 100%;
@@ -88,6 +88,7 @@ a {
     padding: 0 10% 0 10%;
     text-shadow: 1px 1px 5px black, 0 0 30px black, 0 0 20px black;
     margin: 7% 14% 2% 14%;
+    background: none;
 }
 .home{
     float: left; 
