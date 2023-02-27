@@ -1,7 +1,19 @@
 *{
     box-sizing: border-box;
     background-color: black;
-  }
+}
+@font-face {
+  font-family: Formula1-Bold;
+  src: url(/fonts/Formula1-Bold_web_0.ttf) format('truetype');
+}
+@font-face {
+  font-family: Formula1-Regular;
+  src: url(/fonts/Formula1-Regular_web_0.ttf) format('truetype');
+}
+@font-face {
+  font-family: Formula1-Wide;
+  src: url(/fonts/Formula1-Wide_web_0.ttf) format('truetype');
+}
 .column {
     float: left;
     width: 33.33%;
@@ -49,7 +61,7 @@ a {
 .title{
     font-size: 300%;
     text-align: center;
-    
+    font-family: Formula1-Bold;
     color: aliceblue;
     background-color: black;
     text-shadow: 7px 7px 5px black, 0 0 30px black, 0 0 50px black;
@@ -88,18 +100,7 @@ a {
   text-align: center;
   position: relative;
 }
-@font-face {
-  font-family: 'Formula1-Bold';
-  src: url(/fonts/Formula1-Bold_web_0.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Formula1-Regular';
-  src: url(/fonts/Formula1-Regular_web_0.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Formula1-Wide';
-  src: url(/fonts/Formula1-Wide_web_0.ttf) format('truetype');
-}
+
 
 
 
