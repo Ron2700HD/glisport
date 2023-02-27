@@ -41,6 +41,12 @@
       position: relative;
   
   }
+  h2{
+    background: none;
+  }
+  p{
+    background: rgba(31, 28, 28, 0.344);
+  }
 a {
       color:rgb(255, 255, 255); 
       text-decoration:none; 
