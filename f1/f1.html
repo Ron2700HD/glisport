@@ -16,11 +16,24 @@
         </style>
     </head>
     <body>
-        <div class="home">
-            <a href="../index.html">HOME</a>
-            <a href="../calcio/calcio.html">Calcio</a>
-            <a href="../basket/basketintro.html">Basket</a>
-        </div>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="../index.html">HOME</a>
+                <a href="../calcio/calcio.html">Calcio</a>
+                <a href="../basket/basketintro.html">Basket</a>
+            </div>
+          </div>
+        <span style="font-size:65px;cursor:pointer; float:left; color: white;" onclick="openNav()">&#9776;</span>
+        <script>
+            function openNav() {
+              document.getElementById("myNav").style.width = "100%";
+            }
+            
+            function closeNav() {
+              document.getElementById("myNav").style.width = "0%";
+            }
+        </script>
         <div class="title" style="color: rgb(218, 5, 5);">
             <h1>FORMULA 1</h1>
         </div>
