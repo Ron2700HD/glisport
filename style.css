@@ -14,6 +14,10 @@
   font-family: Formula1-Wide;
   src: url(Formula1-Wide_web_0.ttf);
 }
+@font-face {
+  font-family: Basketball;
+  src: url(Basketball.otf);
+}
 .column {
     float: left;
     width: 33.33%;
