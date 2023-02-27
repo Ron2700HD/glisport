@@ -147,7 +147,13 @@ a {
   right: 45px;
  font-size: 60px;
 }
-
+.button_nav{
+  font-size:65px;
+  cursor:pointer; 
+  float:left; 
+  color: white;
+  position: absolute;
+}
 
 
 
