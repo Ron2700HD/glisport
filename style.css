@@ -76,6 +76,7 @@ a {
       text-shadow: 1px 1px 5px black, 0 0 30px black, 0 0 20px black;
       background: none;
       text-align: center;
+      list-style-type:none;
   }
 .text{
     float: none;
