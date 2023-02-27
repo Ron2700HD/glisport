@@ -10,10 +10,7 @@
   font-family: Formula1-Regular;
   src: url(Formula1-Regular_web_0.ttf);
 }
-@font-face {
-  font-family: Formula1-Wide;
-  src: url(Formula1-Wide_web_0.ttf);
-}
+
 @font-face {
   font-family: Basketball;
   src: url(DeatheMaachNcv-2ejv.ttf);
@@ -31,35 +28,34 @@
       animation-name: example;
       animation-duration: 0.3s;
       z-index: 1;
-  }
+}
 @keyframes example {
     from {transform: scale(1.0, 1.0);}
     to {transform: scale(1.1, 1.1);}
-  }
+}
 .button{
       font-size: 40px;
       position: relative;
   
-  }
-  h2{
+}
+h2{
     background: none;
-  }
-  p{
+}
+p{
     background: rgba(31, 28, 28, 0.344);
-  }
+}
 a {
       color:rgb(255, 255, 255); 
       text-decoration:none; 
       text-shadow: 1px 1px 5px black, 0 0 30px black, 0 0 20px black;
       background: none;
-  }
+}
 .row{	
       padding-left: 10%;
       padding-right: 10%;
       background-color: black;
       height: 120%;
       background-repeat: no-repeat;
-      
   }
 .row:after {
     content: "";
