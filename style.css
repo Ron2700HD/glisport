@@ -49,14 +49,12 @@ a {
       background-color: black;
       height: 120%;
       background-repeat: no-repeat;
-      background-size: cover;
+      
   }
 .row:after {
-    
     content: "";
     display: table;
     clear: both;
-    
   }
 .title{
     font-size: 300%;
