@@ -69,15 +69,19 @@ a {
 .footer{
       width: 100%;
       height: 15%;
-      background-color: rgb(8, 18, 59);
       font-size: 120%;
       color: aliceblue;
       text-align: center;
       text-shadow: 1px 1px 5px black, 0 0 30px black, 0 0 20px black;
-      background: none;
       text-align: center;
-      list-style-type:none;
   }
+.footer>ul{
+  list-style-type:none;
+  background: none;
+}
+.footer>li{
+  background: none
+}
 .text{
     float: none;
     text-align: center;
