@@ -84,7 +84,18 @@ a {
   text-align: center;
   position: relative;
 }
-
+@font-face {
+  font-family: Formula1-Bold;
+  src: url(font/Formula1-Bold_web_0.ttf);
+}
+@font-face {
+  font-family: Formula1-Regular;
+  src: url(font/Formula1-Regular_web_0.ttf);
+}
+@font-face {
+  font-family: Formula1-Wide;
+  src: url(font/Formula1-Wide_web_0.ttf);
+}
 
 
 
